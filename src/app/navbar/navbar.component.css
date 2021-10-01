@@ -21,3 +21,32 @@ div li{
 a{
     text-decoration: none;
 }
+
+.buttonAnim {
+    position: relative;
+  }
+  
+  ::before, ::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #3cefff;
+    transform-origin: center top;
+    transform: scaleY(0);
+    transition: transform 0.5s ease;
+  }
+  
+  ::before {
+    left: -8px;
+  }
+  
+  ::after {
+    right: -8px;
+  }
+  
+  :hover::before, :hover::after {
+    transform-origin: center bottom;
+    transform: scaleY(1);
+  }
