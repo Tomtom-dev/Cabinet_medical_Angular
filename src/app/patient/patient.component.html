@@ -1,5 +1,5 @@
 <h1>Liste des patients</h1>
 
 <section>
-    <app-patient-card></app-patient-card>
+    <app-patient-card *ngFor="let patient of patients" [patient]="patient"></app-patient-card>
 </section>
