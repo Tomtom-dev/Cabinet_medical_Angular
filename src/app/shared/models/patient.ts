@@ -1,4 +1,4 @@
-export interface Annonce{
+export interface Patient{
     id: number,
     nom:String,
     prenom:String,
