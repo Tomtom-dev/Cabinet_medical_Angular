@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PatientComponent } from './patient/patient.component';
 import { InfirmiereComponent } from './infirmiere/infirmiere.component';
+import { DeplacementComponent } from './deplacement/deplacement.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     PatientComponent,
-    InfirmiereComponent
+    InfirmiereComponent,
+    DeplacementComponent
   ],
   imports: [
     BrowserModule,
