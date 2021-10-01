@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Patient } from 'src/app/shared/models/patient';
+import { PatientService } from 'src/app/shared/service/patient.service';
 
 @Component({
   selector: 'app-patient-card',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PatientCardComponent implements OnInit {
 
+  @Input() patient!: Patient; 
+
   constructor() { }
 
   ngOnInit(): void {
+    
+    
+   
   }
 
 }
