@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Infirmiere } from 'src/app/shared/models/infirmiere';
 
 @Component({
@@ -10,9 +11,13 @@ export class InfirmiereCardComponent implements OnInit {
 
   @Input() infirmiere!: Infirmiere;
 
-  constructor() { }
+  constructor( private route: Router) { }
 
   ngOnInit(): void {
   }
 
+  redirectToAnnonce( id: number) { 
+    console.log(id);
+    this.route.navigate([`infirmiere/${id}`])
+  }
 }
