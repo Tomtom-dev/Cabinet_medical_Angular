@@ -1,0 +1,13 @@
+section{
+    padding: 5px;
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 5px;
+    
+}
+
+.margin1em{
+    margin: 1em;
+}
