@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Infirmiere } from 'src/app/shared/models/infirmiere';
 
 @Component({
   selector: 'app-infirmiere-card',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./infirmiere-card.component.css']
 })
 export class InfirmiereCardComponent implements OnInit {
+
+  @Input() infirmiere!: Infirmiere;
 
   constructor() { }
 
