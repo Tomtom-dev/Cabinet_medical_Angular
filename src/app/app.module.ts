@@ -8,6 +8,7 @@ import { PatientComponent } from './patient/patient.component';
 import { InfirmiereComponent } from './infirmiere/infirmiere.component';
 import { DeplacementComponent } from './deplacement/deplacement.component';
 import { PatientCardComponent } from './patient/patient-card/patient-card.component';
+import { InfirmiereCardComponent } from './infirmiere/infirmiere-card/infirmiere-card.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { PatientCardComponent } from './patient/patient-card/patient-card.compon
     InfirmiereComponent,
     DeplacementComponent,
     PatientCardComponent,
+    InfirmiereCardComponent,
     
   ],
   imports: [
