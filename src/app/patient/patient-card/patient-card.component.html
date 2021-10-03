@@ -4,7 +4,7 @@
         <div class="card-patient">
             <p>nom : {{patient.nom }} </p>
             <p>prenom : {{patient.prenom}}</p>
-            <p>date de naissance : {{patient.date_de_naissance}}</p>
+            <p>date de naissance : {{patient.date_de_naissance | date:'shortDate'}}</p>
             <p>sexe : {{patient.sexe}}</p>
             <p>numero securité sociale : {{patient.numero_securite_sociale}} </p>
         </div>

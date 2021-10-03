@@ -5,7 +5,7 @@ export interface Infirmiere{
     numero_professionnel: number,
     nom:String,
     prenom:String,
-    telpro:number,
+    tel_pro:number,
     tel_perso:number,
     adresse: Adresse
 }
