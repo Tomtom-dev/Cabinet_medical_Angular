@@ -17,7 +17,6 @@ export class InfirmiereCardComponent implements OnInit {
   }
 
   redirectToAnnonce( id: number) { 
-    console.log(id);
     this.route.navigate([`infirmiere/${id}`])
   }
 }

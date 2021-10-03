@@ -10,6 +10,7 @@ import { DeplacementComponent } from './deplacement/deplacement.component';
 import { PatientCardComponent } from './patient/patient-card/patient-card.component';
 import { InfirmiereCardComponent } from './infirmiere/infirmiere-card/infirmiere-card.component';
 import { InfirmiereDetailComponent } from './infirmiere-detail/infirmiere-detail.component';
+import { InfirmiereModifyComponent } from './infirmiere-modify/infirmiere-modify.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { InfirmiereDetailComponent } from './infirmiere-detail/infirmiere-detail
     PatientCardComponent,
     InfirmiereCardComponent,
     InfirmiereDetailComponent,
+    InfirmiereModifyComponent,
     
   ],
   imports: [
