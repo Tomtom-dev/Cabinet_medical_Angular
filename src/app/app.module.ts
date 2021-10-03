@@ -11,6 +11,7 @@ import { PatientCardComponent } from './patient/patient-card/patient-card.compon
 import { InfirmiereCardComponent } from './infirmiere/infirmiere-card/infirmiere-card.component';
 import { InfirmiereDetailComponent } from './infirmiere-detail/infirmiere-detail.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
