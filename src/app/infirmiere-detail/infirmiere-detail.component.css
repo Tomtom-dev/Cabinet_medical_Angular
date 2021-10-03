@@ -1,5 +1,16 @@
+h1{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+
 .BlocDetail{
     width:50vw;
     margin:auto;
-    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 0.5em;
 }
+
+.BlocDetail:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
