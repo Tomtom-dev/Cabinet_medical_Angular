@@ -14,4 +14,8 @@ export class InfirmiereService {
   public getInfirmiere(): Observable <Infirmiere[]>{
     return this.http.get<Infirmiere[]>(`${environment.url}/infirmieres`)
   }
+
+  public getInfirmiereById(id : number): Observable <Infirmiere> {
+    return this.http.get<Infirmiere>(`${environment.url}/infirmieres/${id}`);
+  }
 }
