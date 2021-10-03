@@ -30,8 +30,7 @@ export class InfirmiereDetailComponent implements OnInit {
     
   }
   DeleteInfirmiere(){
-    console.log("del");
-    
+    console.log("del");  
   }
 
 }

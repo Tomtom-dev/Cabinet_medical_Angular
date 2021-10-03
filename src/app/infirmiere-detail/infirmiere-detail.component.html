@@ -9,7 +9,13 @@
         <p>
             Adresse : {{infirmiere.adresse.numero}} {{infirmiere.adresse.rue}} {{infirmiere.adresse.cp}} {{infirmiere.adresse.ville}}
         </p>
-        <button (click)="ModifyInfirmiere(infirmiere.id)">Modifier</button>
-        <button (click)="DeleteInfirmiere()">Supprimer</button>
+        <button 
+        (click)="ModifyInfirmiere(infirmiere.id)"
+        class="myButton"
+        >Modifier</button>
+        <button
+        (click)="DeleteInfirmiere()"
+        class="myButton"
+        >Supprimer</button>
     </div>
 </section>
