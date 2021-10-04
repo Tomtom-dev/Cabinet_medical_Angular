@@ -1,1 +1,21 @@
-<p>infirmiere-detail works!</p>
+<h1> Vous avez selectionné : {{infirmiere.nom}} {{infirmiere.prenom}}</h1>
+
+<section>
+    <div class="BlocDetail">
+        <p>Nom : {{infirmiere.nom}} </p>
+        <p>Prenom : {{infirmiere.prenom}}</p>
+        <p>telelephone-pro : {{infirmiere.tel_pro}} </p>
+        <p>telephone perso : {{infirmiere.tel_perso}} </p>
+        <p>
+            Adresse : {{infirmiere.adresse.numero}} {{infirmiere.adresse.rue}} {{infirmiere.adresse.cp}} {{infirmiere.adresse.ville}}
+        </p>
+        <button 
+        (click)="ModifyInfirmiere(infirmiere.id)"
+        class="myButton"
+        >Modifier</button>
+        <button
+        (click)="DeleteInfirmiere()"
+        class="myButton"
+        >Supprimer</button>
+    </div>
+</section>
